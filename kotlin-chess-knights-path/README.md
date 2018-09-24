@@ -30,8 +30,11 @@ D4 B5 C7
 
 Test your gradle installation from your command line:
 
+```bash
+gradle
+```
 
-```gradle```
+output should be similar to
 
 ```bash
 gradle
