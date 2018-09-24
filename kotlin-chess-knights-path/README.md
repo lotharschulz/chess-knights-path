@@ -14,13 +14,19 @@ D4 D5
 
 The first of the space-separated values is the knight's starting position, the second is the knight's target position.
 For each line in the input, your program should print (to standard out) the shortest path it found. So for the example above, it should print e.g.:
+
 D4 E6 G7
+
 D4 C4 B4 D5
+
 D4 E6 C7
 
 There are other paths available with same length:
+
 D4 F5 G7
+
 D4 E2 F4 D5
+
 D4 B5 C7
 
 ### Solution
