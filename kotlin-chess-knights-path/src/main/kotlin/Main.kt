@@ -54,7 +54,7 @@ fun main(args: Array<String>) {
         return
     }
     val ck = ChessKnight()
-    val steplist = ck.shortestPathList(Node(args[0].toString()), Node(args[1].toString()), 8)
+    val steplist = ck.shortestPathList(Node(args[0]), Node(args[1]), 8)
     println(ck.stringifyShortestPathList(steplist))
 }
 
